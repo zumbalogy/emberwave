@@ -24,6 +24,8 @@ gem "ember-rails"
 gem "devise"
 gem 'rails_12factor', group: :production
 
+# gem 'unicorn'
+
 
 group :development do
   gem "pry"
