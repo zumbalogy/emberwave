@@ -13,7 +13,6 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 1.2'
 
 group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
 
@@ -23,9 +22,9 @@ gem 'bson_ext'
 gem "ember-rails"
 gem "devise"
 gem 'rails_12factor', group: :production
+gem "haml-rails"
 
 # gem 'unicorn'
-
 
 group :development do
   gem "pry"
