@@ -1,8 +1,6 @@
 class User
   include Mongoid::Document
-  include Mongoid::MultiParameterAttributes
   include Mongoid::Timestamps
-  include ::Deviseable
 
   has_and_belongs_to_many :convos
   has_and_belongs_to_many :carriers
