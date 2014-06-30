@@ -14,9 +14,9 @@ end
 gem 'mongoid', github: 'mongoid/mongoid'
 gem 'bson_ext'
 gem "ember-rails"
-gem "devise"
 gem 'rails_12factor', group: :production
 gem "haml-rails"
+gem 'devise', github: 'plataformatec/devise'
 
 # gem 'unicorn'
 

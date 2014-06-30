@@ -7,4 +7,6 @@ class Message
   embedded_in :carrier
   belongs_to :user
 
+  field :text, type: String
+
 end
