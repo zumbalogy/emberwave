@@ -6,6 +6,7 @@ class User
   has_and_belongs_to_many :carriers
   has_many :messages
 
+  field :username, type: String
 
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable

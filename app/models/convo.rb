@@ -4,4 +4,5 @@ class Convo
 
   embeds_many :carriers
   has_and_belongs_to_many :users
+
 end

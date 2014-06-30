@@ -6,4 +6,6 @@ class Carrier
   embedded_in :convo
   has_and_belongs_to_many :users
 
+  recursively_embeds_many
+
 end
