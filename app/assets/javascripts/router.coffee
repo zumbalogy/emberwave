@@ -1,7 +1,7 @@
 # For more information see: http://emberjs.com/guides/routing/
 
 Emberwave.Router.map ()->
-  # rootURL: '/blog/'
+  # rootURL: '/home/'
   # @resource 'posts'
-  @route 'index', path: '/'
+  @route 'index', path: '/home'
 
