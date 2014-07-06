@@ -3,5 +3,5 @@
 Emberwave.Router.map ()->
   # rootURL: '/blog/'
   # @resource 'posts'
-  @route 'index', path: ''
+  @route 'index', path: '/'
 
